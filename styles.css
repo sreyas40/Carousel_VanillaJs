@@ -4,7 +4,7 @@ body {
     padding: 0;
     background: no-repeat url('img_res/city_background.jpg');
     background-size: cover;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .main_ {
@@ -14,6 +14,7 @@ body {
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -23,7 +24,7 @@ body {
     width: 75%;
     height: 600px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -31,27 +32,18 @@ body {
 .carousel_control {
     width: 30px;
     height: auto;
-    position: absolute;
     cursor: pointer;
-}
-
-.carousel_control_left {
-    top: 50%;
+    display: block;
     z-index: 2;
 }
-
-.carousel_control_right {
-    top: 50%;
-    right: 0;
-}
-
-
-
 
 .carousel_box1 {
     height: 90%;
     width: 90%;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.623);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
     overflow: hidden;
 }
 
