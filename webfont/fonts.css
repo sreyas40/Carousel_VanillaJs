@@ -1,0 +1,21 @@
+
+
+@font-face {
+    font-family: 'Coco Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Coco Bold'), url('Coco-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Coco Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Coco Bold Italic'), url('Coco-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pulchella';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pulchella'), url('Pulchella.otf') format('otf');
+}
