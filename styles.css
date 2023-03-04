@@ -26,9 +26,6 @@ h1 {
 span {
     font-family: 'Kalam', cursive;
 }
-.span_2{
-    color: #ef233c;
-}
 
 /* to make nav control to disappear on reaching end */
 .is-hidden {
