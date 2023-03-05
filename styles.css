@@ -50,7 +50,7 @@ span {
 }
 
 .carousel_box1 {
-    height: 90%;
+    height: 100%;
     width: 90%;
     position: relative;
     background-color: rgba(0, 0, 0, 0.459);
@@ -112,8 +112,30 @@ span {
 
 
 /* responsive */
-@media(max-width:1050px){
-    .carousel_body{
-        width: 90%;
+@media(max-width:1050px) {
+    .carousel_body {
+        width: 95%;
+    }
+}
+
+@media(max-width:500px) {
+    h1 {
+        margin-bottom: 2%;
+    }
+
+    .carousel_nav {
+        height: 5%;
+    }
+
+    .carousel_control {
+        position: absolute;
+    }
+
+    .carousel_control_right {
+        right: 0;
+    }
+
+    .carousel_control_left {
+        left: 0;
     }
 }
